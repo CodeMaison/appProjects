@@ -1,3 +1,16 @@
+.DS_STORE
+.DS_STORE?
+.Trashes
+.DS_Store
+.DS_Store?
+*.DS_Store
+*.xcuserstate
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
