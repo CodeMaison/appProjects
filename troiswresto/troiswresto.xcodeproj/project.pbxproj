@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21919E9FC56C16BAC8382D60 /* Pods_troiswrestoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42C94E9CF1DD635DF44F9F9 /* Pods_troiswrestoUITests.framework */; };
+		7D9B2EA9431617A780368BB5 /* Pods_troiswresto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE24F0840BE5D693149C6AB5 /* Pods_troiswresto.framework */; };
+		931E06961FC2D36A00ACB426 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931E06951FC2D36A00ACB426 /* WelcomeViewController.swift */; };
+		931E06981FC2D3CB00ACB426 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931E06971FC2D3CB00ACB426 /* Login.storyboard */; };
+		931E069A1FC2D3FD00ACB426 /* CreateAnAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931E06991FC2D3FD00ACB426 /* CreateAnAccountViewController.swift */; };
+		931E069C1FC2D41200ACB426 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931E069B1FC2D41200ACB426 /* LoginViewController.swift */; };
+		93379DA61FBC53C300B0375A /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93379DA51FBC53C300B0375A /* Review.swift */; };
+		935698801FB9D64200279C47 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9356987F1FB9D64200279C47 /* MapViewController.swift */; };
+		935698821FB9FDCE00279C47 /* Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 935698811FB9DFFD00279C47 /* Location.gpx */; };
+		9369892C1FB0979500A0B80C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9369892B1FB0979500A0B80C /* AppDelegate.swift */; };
+		9369892E1FB0979500A0B80C /* CreateRestoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9369892D1FB0979500A0B80C /* CreateRestoViewController.swift */; };
+		936989311FB0979500A0B80C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9369892F1FB0979500A0B80C /* Main.storyboard */; };
+		936989331FB0979500A0B80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936989321FB0979500A0B80C /* Assets.xcassets */; };
+		936989361FB0979500A0B80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936989341FB0979500A0B80C /* LaunchScreen.storyboard */; };
+		936989411FB0979500A0B80C /* troiswrestoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936989401FB0979500A0B80C /* troiswrestoTests.swift */; };
+		9369894C1FB0979500A0B80C /* troiswrestoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9369894B1FB0979500A0B80C /* troiswrestoUITests.swift */; };
+		9369895A1FB0983E00A0B80C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 936989591FB0983E00A0B80C /* GoogleService-Info.plist */; };
+		9369895B1FB0985700A0B80C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 936989591FB0983E00A0B80C /* GoogleService-Info.plist */; };
+		9369895C1FB0985700A0B80C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 936989591FB0983E00A0B80C /* GoogleService-Info.plist */; };
+		9369895E1FB09EEE00A0B80C /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9369895D1FB09EEE00A0B80C /* FirebaseHelper.swift */; };
+		936989601FB0BB6D00A0B80C /* Resto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9369895F1FB0BB6C00A0B80C /* Resto.swift */; };
+		936A6D4F1FBB19B300225F30 /* DetailRestoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936A6D4E1FBB19B300225F30 /* DetailRestoViewController.swift */; };
+		937A47701FB49E7300514186 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 937A476F1FB49E7300514186 /* FontAwesome.otf */; };
+		93BB58DC1FC43A57009DA957 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB58DB1FC43A57009DA957 /* SettingsViewController.swift */; };
+		93CBE7B11FB320B1007F4488 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CBE7B01FB320B1007F4488 /* Utilities.swift */; };
+		93CBE7B31FB32906007F4488 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CBE7B21FB32906007F4488 /* Extensions.swift */; };
+		93CBE7B51FB34EF1007F4488 /* RestosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CBE7B41FB34EF1007F4488 /* RestosViewController.swift */; };
+		93CBE7B71FB35D4D007F4488 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CBE7B61FB35D4C007F4488 /* CustomCell.swift */; };
+		93F433BD1FBEF8FD00E61FFF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93F433BF1FBEF8FD00E61FFF /* Localizable.strings */; };
+		93F55FF21FC32BF300A3AA32 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F55FF11FC32BF300A3AA32 /* NavigationViewController.swift */; };
+		C733D7BF332138948DAF5FF5 /* Pods_troiswrestoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2AA56742635304F18421C6 /* Pods_troiswrestoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9369893D1FB0979500A0B80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 936989201FB0979500A0B80C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 936989271FB0979500A0B80C;
+			remoteInfo = troiswresto;
+		};
+		936989481FB0979500A0B80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 936989201FB0979500A0B80C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 936989271FB0979500A0B80C;
+			remoteInfo = troiswresto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16A766B000DA9597F95CC83C /* Pods-troiswresto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-troiswresto.release.xcconfig"; path = "Pods/Target Support Files/Pods-troiswresto/Pods-troiswresto.release.xcconfig"; sourceTree = "<group>"; };
+		1BA2ACDBCC60BA44E47A713A /* Pods-troiswrestoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-troiswrestoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-troiswrestoUITests/Pods-troiswrestoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4C79C3D030D35B9D37C1E9CF /* Pods-troiswrestoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-troiswrestoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-troiswrestoTests/Pods-troiswrestoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F45A384C4D2EE7E8A2E6745 /* Pods-troiswrestoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-troiswrestoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-troiswrestoUITests/Pods-troiswrestoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		931E06951FC2D36A00ACB426 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		931E06971FC2D3CB00ACB426 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		931E06991FC2D3FD00ACB426 /* CreateAnAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAnAccountViewController.swift; sourceTree = "<group>"; };
+		931E069B1FC2D41200ACB426 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		93379DA51FBC53C300B0375A /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		9356987F1FB9D64200279C47 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		935698811FB9DFFD00279C47 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		936989281FB0979500A0B80C /* troiswresto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = troiswresto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9369892B1FB0979500A0B80C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9369892D1FB0979500A0B80C /* CreateRestoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRestoViewController.swift; sourceTree = "<group>"; };
+		936989301FB0979500A0B80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		936989321FB0979500A0B80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		936989351FB0979500A0B80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		936989371FB0979500A0B80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9369893C1FB0979500A0B80C /* troiswrestoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = troiswrestoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		936989401FB0979500A0B80C /* troiswrestoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = troiswrestoTests.swift; sourceTree = "<group>"; };
+		936989421FB0979500A0B80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		936989471FB0979500A0B80C /* troiswrestoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = troiswrestoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9369894B1FB0979500A0B80C /* troiswrestoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = troiswrestoUITests.swift; sourceTree = "<group>"; };
+		9369894D1FB0979500A0B80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		936989591FB0983E00A0B80C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9369895D1FB09EEE00A0B80C /* FirebaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		9369895F1FB0BB6C00A0B80C /* Resto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resto.swift; sourceTree = "<group>"; };
+		936A6D4E1FBB19B300225F30 /* DetailRestoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRestoViewController.swift; sourceTree = "<group>"; };
+		937A476F1FB49E7300514186 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = ../../touchDemo/touchDemo/FontAwesome.otf; sourceTree = "<group>"; };
+		93BB58DB1FC43A57009DA957 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		93CBE7B01FB320B1007F4488 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		93CBE7B21FB32906007F4488 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		93CBE7B41FB34EF1007F4488 /* RestosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestosViewController.swift; sourceTree = "<group>"; };
+		93CBE7B61FB35D4C007F4488 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		93F433BE1FBEF8FD00E61FFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		93F433C01FBEF91A00E61FFF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		93F55FF11FC32BF300A3AA32 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		9C2AA56742635304F18421C6 /* Pods_troiswrestoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_troiswrestoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42C94E9CF1DD635DF44F9F9 /* Pods_troiswrestoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_troiswrestoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACBF4B68E85B50821938B66 /* Pods-troiswresto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-troiswresto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-troiswresto/Pods-troiswresto.debug.xcconfig"; sourceTree = "<group>"; };
+		D786E7B82D1D2475B434C01F /* Pods-troiswrestoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-troiswrestoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-troiswrestoTests/Pods-troiswrestoTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE24F0840BE5D693149C6AB5 /* Pods_troiswresto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_troiswresto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		936989251FB0979500A0B80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9B2EA9431617A780368BB5 /* Pods_troiswresto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936989391FB0979500A0B80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C733D7BF332138948DAF5FF5 /* Pods_troiswrestoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936989441FB0979500A0B80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21919E9FC56C16BAC8382D60 /* Pods_troiswrestoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B40568E0691058C6696368B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CACBF4B68E85B50821938B66 /* Pods-troiswresto.debug.xcconfig */,
+				16A766B000DA9597F95CC83C /* Pods-troiswresto.release.xcconfig */,
+				4C79C3D030D35B9D37C1E9CF /* Pods-troiswrestoTests.debug.xcconfig */,
+				D786E7B82D1D2475B434C01F /* Pods-troiswrestoTests.release.xcconfig */,
+				6F45A384C4D2EE7E8A2E6745 /* Pods-troiswrestoUITests.debug.xcconfig */,
+				1BA2ACDBCC60BA44E47A713A /* Pods-troiswrestoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9369891F1FB0979500A0B80C = {
+			isa = PBXGroup;
+			children = (
+				9369892A1FB0979500A0B80C /* troiswresto */,
+				9369893F1FB0979500A0B80C /* troiswrestoTests */,
+				9369894A1FB0979500A0B80C /* troiswrestoUITests */,
+				936989291FB0979500A0B80C /* Products */,
+				6B40568E0691058C6696368B /* Pods */,
+				D4BB81B5CC09E273FB188459 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		936989291FB0979500A0B80C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				936989281FB0979500A0B80C /* troiswresto.app */,
+				9369893C1FB0979500A0B80C /* troiswrestoTests.xctest */,
+				936989471FB0979500A0B80C /* troiswrestoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9369892A1FB0979500A0B80C /* troiswresto */ = {
+			isa = PBXGroup;
+			children = (
+				9369892B1FB0979500A0B80C /* AppDelegate.swift */,
+				931E06951FC2D36A00ACB426 /* WelcomeViewController.swift */,
+				93F55FF11FC32BF300A3AA32 /* NavigationViewController.swift */,
+				93CBE7B41FB34EF1007F4488 /* RestosViewController.swift */,
+				936A6D4E1FBB19B300225F30 /* DetailRestoViewController.swift */,
+				9356987F1FB9D64200279C47 /* MapViewController.swift */,
+				9369892D1FB0979500A0B80C /* CreateRestoViewController.swift */,
+				93BB58DB1FC43A57009DA957 /* SettingsViewController.swift */,
+				9369892F1FB0979500A0B80C /* Main.storyboard */,
+				931E06991FC2D3FD00ACB426 /* CreateAnAccountViewController.swift */,
+				931E069B1FC2D41200ACB426 /* LoginViewController.swift */,
+				931E06971FC2D3CB00ACB426 /* Login.storyboard */,
+				936989321FB0979500A0B80C /* Assets.xcassets */,
+				936989341FB0979500A0B80C /* LaunchScreen.storyboard */,
+				9369895D1FB09EEE00A0B80C /* FirebaseHelper.swift */,
+				9369895F1FB0BB6C00A0B80C /* Resto.swift */,
+				93379DA51FBC53C300B0375A /* Review.swift */,
+				936989371FB0979500A0B80C /* Info.plist */,
+				936989591FB0983E00A0B80C /* GoogleService-Info.plist */,
+				93CBE7B01FB320B1007F4488 /* Utilities.swift */,
+				93CBE7B21FB32906007F4488 /* Extensions.swift */,
+				93CBE7B61FB35D4C007F4488 /* CustomCell.swift */,
+				937A476F1FB49E7300514186 /* FontAwesome.otf */,
+				935698811FB9DFFD00279C47 /* Location.gpx */,
+				93F433BF1FBEF8FD00E61FFF /* Localizable.strings */,
+			);
+			path = troiswresto;
+			sourceTree = "<group>";
+		};
+		9369893F1FB0979500A0B80C /* troiswrestoTests */ = {
+			isa = PBXGroup;
+			children = (
+				936989401FB0979500A0B80C /* troiswrestoTests.swift */,
+				936989421FB0979500A0B80C /* Info.plist */,
+			);
+			path = troiswrestoTests;
+			sourceTree = "<group>";
+		};
+		9369894A1FB0979500A0B80C /* troiswrestoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9369894B1FB0979500A0B80C /* troiswrestoUITests.swift */,
+				9369894D1FB0979500A0B80C /* Info.plist */,
+			);
+			path = troiswrestoUITests;
+			sourceTree = "<group>";
+		};
+		D4BB81B5CC09E273FB188459 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE24F0840BE5D693149C6AB5 /* Pods_troiswresto.framework */,
+				9C2AA56742635304F18421C6 /* Pods_troiswrestoTests.framework */,
+				B42C94E9CF1DD635DF44F9F9 /* Pods_troiswrestoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		936989271FB0979500A0B80C /* troiswresto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936989501FB0979500A0B80C /* Build configuration list for PBXNativeTarget "troiswresto" */;
+			buildPhases = (
+				FC24E66D3A13873114BB27AA /* [CP] Check Pods Manifest.lock */,
+				936989241FB0979500A0B80C /* Sources */,
+				936989251FB0979500A0B80C /* Frameworks */,
+				936989261FB0979500A0B80C /* Resources */,
+				0506867D3BBEC2DC669CBB42 /* [CP] Embed Pods Frameworks */,
+				BB56D86E9A9CF251DF099BE9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = troiswresto;
+			productName = troiswresto;
+			productReference = 936989281FB0979500A0B80C /* troiswresto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9369893B1FB0979500A0B80C /* troiswrestoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936989531FB0979500A0B80C /* Build configuration list for PBXNativeTarget "troiswrestoTests" */;
+			buildPhases = (
+				619D7EDBD9FFEE99AAD62136 /* [CP] Check Pods Manifest.lock */,
+				936989381FB0979500A0B80C /* Sources */,
+				936989391FB0979500A0B80C /* Frameworks */,
+				9369893A1FB0979500A0B80C /* Resources */,
+				95B698F1955DBBF81918F790 /* [CP] Embed Pods Frameworks */,
+				3768A8F7A264A43CFBEBAE06 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9369893E1FB0979500A0B80C /* PBXTargetDependency */,
+			);
+			name = troiswrestoTests;
+			productName = troiswrestoTests;
+			productReference = 9369893C1FB0979500A0B80C /* troiswrestoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		936989461FB0979500A0B80C /* troiswrestoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936989561FB0979500A0B80C /* Build configuration list for PBXNativeTarget "troiswrestoUITests" */;
+			buildPhases = (
+				596973BE93EA6A16412CD844 /* [CP] Check Pods Manifest.lock */,
+				936989431FB0979500A0B80C /* Sources */,
+				936989441FB0979500A0B80C /* Frameworks */,
+				936989451FB0979500A0B80C /* Resources */,
+				F73E5E0745F40C5E7DAAF0B6 /* [CP] Embed Pods Frameworks */,
+				888C09A3BCB55DF9F5FB04FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				936989491FB0979500A0B80C /* PBXTargetDependency */,
+			);
+			name = troiswrestoUITests;
+			productName = troiswrestoUITests;
+			productReference = 936989471FB0979500A0B80C /* troiswrestoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		936989201FB0979500A0B80C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = AnneLaure;
+				TargetAttributes = {
+					936989271FB0979500A0B80C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					9369893B1FB0979500A0B80C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 936989271FB0979500A0B80C;
+					};
+					936989461FB0979500A0B80C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 936989271FB0979500A0B80C;
+					};
+				};
+			};
+			buildConfigurationList = 936989231FB0979500A0B80C /* Build configuration list for PBXProject "troiswresto" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 9369891F1FB0979500A0B80C;
+			productRefGroup = 936989291FB0979500A0B80C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				936989271FB0979500A0B80C /* troiswresto */,
+				9369893B1FB0979500A0B80C /* troiswrestoTests */,
+				936989461FB0979500A0B80C /* troiswrestoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		936989261FB0979500A0B80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931E06981FC2D3CB00ACB426 /* Login.storyboard in Resources */,
+				936989361FB0979500A0B80C /* LaunchScreen.storyboard in Resources */,
+				937A47701FB49E7300514186 /* FontAwesome.otf in Resources */,
+				9369895A1FB0983E00A0B80C /* GoogleService-Info.plist in Resources */,
+				93F433BD1FBEF8FD00E61FFF /* Localizable.strings in Resources */,
+				936989331FB0979500A0B80C /* Assets.xcassets in Resources */,
+				935698821FB9FDCE00279C47 /* Location.gpx in Resources */,
+				936989311FB0979500A0B80C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9369893A1FB0979500A0B80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9369895B1FB0985700A0B80C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936989451FB0979500A0B80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9369895C1FB0985700A0B80C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0506867D3BBEC2DC669CBB42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-troiswresto/Pods-troiswresto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-troiswresto/Pods-troiswresto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3768A8F7A264A43CFBEBAE06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-troiswrestoTests/Pods-troiswrestoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		596973BE93EA6A16412CD844 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-troiswrestoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		619D7EDBD9FFEE99AAD62136 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-troiswrestoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		888C09A3BCB55DF9F5FB04FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-troiswrestoUITests/Pods-troiswrestoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95B698F1955DBBF81918F790 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-troiswrestoTests/Pods-troiswrestoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-troiswrestoTests/Pods-troiswrestoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB56D86E9A9CF251DF099BE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-troiswresto/Pods-troiswresto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F73E5E0745F40C5E7DAAF0B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-troiswrestoUITests/Pods-troiswrestoUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-troiswrestoUITests/Pods-troiswrestoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC24E66D3A13873114BB27AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-troiswresto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		936989241FB0979500A0B80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931E069C1FC2D41200ACB426 /* LoginViewController.swift in Sources */,
+				93CBE7B51FB34EF1007F4488 /* RestosViewController.swift in Sources */,
+				936A6D4F1FBB19B300225F30 /* DetailRestoViewController.swift in Sources */,
+				93F55FF21FC32BF300A3AA32 /* NavigationViewController.swift in Sources */,
+				9369892E1FB0979500A0B80C /* CreateRestoViewController.swift in Sources */,
+				93CBE7B31FB32906007F4488 /* Extensions.swift in Sources */,
+				9369895E1FB09EEE00A0B80C /* FirebaseHelper.swift in Sources */,
+				93BB58DC1FC43A57009DA957 /* SettingsViewController.swift in Sources */,
+				935698801FB9D64200279C47 /* MapViewController.swift in Sources */,
+				93379DA61FBC53C300B0375A /* Review.swift in Sources */,
+				9369892C1FB0979500A0B80C /* AppDelegate.swift in Sources */,
+				93CBE7B11FB320B1007F4488 /* Utilities.swift in Sources */,
+				931E06961FC2D36A00ACB426 /* WelcomeViewController.swift in Sources */,
+				93CBE7B71FB35D4D007F4488 /* CustomCell.swift in Sources */,
+				931E069A1FC2D3FD00ACB426 /* CreateAnAccountViewController.swift in Sources */,
+				936989601FB0BB6D00A0B80C /* Resto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936989381FB0979500A0B80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936989411FB0979500A0B80C /* troiswrestoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936989431FB0979500A0B80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9369894C1FB0979500A0B80C /* troiswrestoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9369893E1FB0979500A0B80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 936989271FB0979500A0B80C /* troiswresto */;
+			targetProxy = 9369893D1FB0979500A0B80C /* PBXContainerItemProxy */;
+		};
+		936989491FB0979500A0B80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 936989271FB0979500A0B80C /* troiswresto */;
+			targetProxy = 936989481FB0979500A0B80C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9369892F1FB0979500A0B80C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				936989301FB0979500A0B80C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		936989341FB0979500A0B80C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				936989351FB0979500A0B80C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		93F433BF1FBEF8FD00E61FFF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93F433BE1FBEF8FD00E61FFF /* en */,
+				93F433C01FBEF91A00E61FFF /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9369894E1FB0979500A0B80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9369894F1FB0979500A0B80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		936989511FB0979500A0B80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CACBF4B68E85B50821938B66 /* Pods-troiswresto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7ZYXEX9VL;
+				INFOPLIST_FILE = troiswresto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnneLaure.troiswresto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		936989521FB0979500A0B80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A766B000DA9597F95CC83C /* Pods-troiswresto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7ZYXEX9VL;
+				INFOPLIST_FILE = troiswresto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnneLaure.troiswresto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		936989541FB0979500A0B80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C79C3D030D35B9D37C1E9CF /* Pods-troiswrestoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7ZYXEX9VL;
+				INFOPLIST_FILE = troiswrestoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnneLaure.troiswrestoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/troiswresto.app/troiswresto";
+			};
+			name = Debug;
+		};
+		936989551FB0979500A0B80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D786E7B82D1D2475B434C01F /* Pods-troiswrestoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7ZYXEX9VL;
+				INFOPLIST_FILE = troiswrestoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnneLaure.troiswrestoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/troiswresto.app/troiswresto";
+			};
+			name = Release;
+		};
+		936989571FB0979500A0B80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F45A384C4D2EE7E8A2E6745 /* Pods-troiswrestoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7ZYXEX9VL;
+				INFOPLIST_FILE = troiswrestoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnneLaure.troiswrestoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = troiswresto;
+			};
+			name = Debug;
+		};
+		936989581FB0979500A0B80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA2ACDBCC60BA44E47A713A /* Pods-troiswrestoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7ZYXEX9VL;
+				INFOPLIST_FILE = troiswrestoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnneLaure.troiswrestoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = troiswresto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		936989231FB0979500A0B80C /* Build configuration list for PBXProject "troiswresto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9369894E1FB0979500A0B80C /* Debug */,
+				9369894F1FB0979500A0B80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		936989501FB0979500A0B80C /* Build configuration list for PBXNativeTarget "troiswresto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936989511FB0979500A0B80C /* Debug */,
+				936989521FB0979500A0B80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		936989531FB0979500A0B80C /* Build configuration list for PBXNativeTarget "troiswrestoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936989541FB0979500A0B80C /* Debug */,
+				936989551FB0979500A0B80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		936989561FB0979500A0B80C /* Build configuration list for PBXNativeTarget "troiswrestoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936989571FB0979500A0B80C /* Debug */,
+				936989581FB0979500A0B80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 936989201FB0979500A0B80C /* Project object */;
+}

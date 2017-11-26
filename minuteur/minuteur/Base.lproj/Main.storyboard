@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontAwesome.otf">
+            <string>FontAwesome</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="minuteur" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bipbip" translatesAutoresizingMaskIntoConstraints="NO" id="3nn-xH-t5n">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="519"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UOj-8O-zgL">
+                                <rect key="frame" x="87.5" y="70" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="AOe-ip-fWA"/>
+                                    <constraint firstAttribute="width" constant="200" id="k5Z-1G-jj6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="1" green="0.19575075435985645" blue="0.30144376191876421" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bh-Bd-ujl">
+                                <rect key="frame" x="0.0" y="277" width="375" height="133"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="zkI-FY-Xmq"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="YJ0-p6-8TA"/>
+                                </connections>
+                            </pickerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ek4-gs-Dh5" userLabel="ViewButtons">
+                                <rect key="frame" x="0.0" y="519" width="375" height="133.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1t-bn-aEK">
+                                        <rect key="frame" x="0.0" y="52.5" width="84" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="84" id="fXF-ym-0mt"/>
+                                            <constraint firstAttribute="height" constant="30" id="kSl-ww-NQf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="17"/>
+                                        <state key="normal" title=" "/>
+                                        <connections>
+                                            <action selector="startButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HMr-0a-CCa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFB-iE-OZm">
+                                        <rect key="frame" x="145.5" y="52.5" width="84" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="84" id="MnY-YB-cDa"/>
+                                            <constraint firstAttribute="height" constant="30" id="WQE-1h-rMU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="17"/>
+                                        <state key="normal" title=""/>
+                                        <connections>
+                                            <action selector="pauseButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NMy-PQ-Ppx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFt-U2-rtV">
+                                        <rect key="frame" x="291" y="52" width="84" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="BZU-2L-KWV"/>
+                                            <constraint firstAttribute="width" constant="84" id="CeC-9x-XXq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="17"/>
+                                        <state key="normal" title=""/>
+                                        <connections>
+                                            <action selector="stopButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4so-3q-AwG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="I1t-bn-aEK" firstAttribute="leading" secondItem="ek4-gs-Dh5" secondAttribute="leading" id="BcR-Gg-nVD"/>
+                                    <constraint firstItem="IFB-iE-OZm" firstAttribute="centerX" secondItem="ek4-gs-Dh5" secondAttribute="centerX" id="Dhj-oP-INZ"/>
+                                    <constraint firstItem="fFt-U2-rtV" firstAttribute="centerY" secondItem="ek4-gs-Dh5" secondAttribute="centerY" id="Ndq-lE-mq7"/>
+                                    <constraint firstItem="IFB-iE-OZm" firstAttribute="centerY" secondItem="ek4-gs-Dh5" secondAttribute="centerY" id="hAP-aE-uS5"/>
+                                    <constraint firstItem="I1t-bn-aEK" firstAttribute="centerY" secondItem="ek4-gs-Dh5" secondAttribute="centerY" id="x4k-fl-vDF"/>
+                                    <constraint firstAttribute="trailing" secondItem="fFt-U2-rtV" secondAttribute="trailing" id="yQ9-ux-WQa"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sélection du temps en secondes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZI-o0-GGH">
+                                <rect key="frame" x="8.5" y="140" width="358" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="fVG-vs-SV4"/>
+                                    <constraint firstAttribute="width" constant="358" id="hlt-1a-6k3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8bh-Bd-ujl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="57H-BR-CPo"/>
+                            <constraint firstItem="eZI-o0-GGH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6Kc-Aw-KuB"/>
+                            <constraint firstItem="8bh-Bd-ujl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9nW-8U-xvY"/>
+                            <constraint firstItem="8bh-Bd-ujl" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="Fjt-rJ-RY6"/>
+                            <constraint firstItem="ek4-gs-Dh5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GIR-Be-zvY"/>
+                            <constraint firstItem="8bh-Bd-ujl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="IgA-i4-Dd2"/>
+                            <constraint firstItem="3nn-xH-t5n" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ntg-Q1-JQV"/>
+                            <constraint firstItem="eZI-o0-GGH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="QOm-3M-emX"/>
+                            <constraint firstItem="ek4-gs-Dh5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UDe-Du-OTq"/>
+                            <constraint firstItem="ek4-gs-Dh5" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="Yji-sz-Qbx"/>
+                            <constraint firstItem="UOj-8O-zgL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aWc-0c-uhT"/>
+                            <constraint firstItem="3nn-xH-t5n" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="flP-4x-ZKz"/>
+                            <constraint firstItem="3nn-xH-t5n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mcZ-Vn-zo5"/>
+                            <constraint firstItem="UOj-8O-zgL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="n8U-bM-Fga"/>
+                            <constraint firstItem="ek4-gs-Dh5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o7W-gg-0xh"/>
+                            <constraint firstItem="8bh-Bd-ujl" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="uzc-QE-jFr"/>
+                            <constraint firstItem="ek4-gs-Dh5" firstAttribute="top" secondItem="8bh-Bd-ujl" secondAttribute="bottom" constant="109" id="wBz-Hj-JmR"/>
+                            <constraint firstItem="ek4-gs-Dh5" firstAttribute="top" secondItem="3nn-xH-t5n" secondAttribute="bottom" id="xyo-mI-2pB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="pauseButton" destination="IFB-iE-OZm" id="Bf5-R0-Pry"/>
+                        <outlet property="phrase" destination="eZI-o0-GGH" id="1v1-Qi-tJm"/>
+                        <outlet property="startButton" destination="I1t-bn-aEK" id="x70-aA-q0c"/>
+                        <outlet property="stopButton" destination="fFt-U2-rtV" id="BUw-EG-JNR"/>
+                        <outlet property="timeLabel" destination="UOj-8O-zgL" id="0Lb-bX-tRW"/>
+                        <outlet property="topTimeConstraint" destination="n8U-bM-Fga" id="wOH-jP-zHH"/>
+                        <outlet property="totalTimePickerViewValueChanged" destination="8bh-Bd-ujl" id="OLH-Yn-4hu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bipbip" width="324" height="440"/>
+    </resources>
+</document>

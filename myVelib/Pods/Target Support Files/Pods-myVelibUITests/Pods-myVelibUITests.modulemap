@@ -1,0 +1,6 @@
+framework module Pods_myVelibUITests {
+  umbrella header "Pods-myVelibUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
