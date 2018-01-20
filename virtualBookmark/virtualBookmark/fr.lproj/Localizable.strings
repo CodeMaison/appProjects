@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  virtualBookmark
+
+  Created by Anne Laure Civeyrac on 09/01/2018.
+  Copyright © 2018 Anne Laure Civeyrac. All rights reserved.
+*/
+
+"currentReading.erreurPagesTitle" = "Erreur";
+"currentReading.erreurPagesMessage" = "Vous avez saisi un numéro de page supérieur au nombre total de pages du livre";
+"currentReading.erreurPagesAction" = "Modifier";
+"currentReading.noBook" = "Vous n'avez actuellement aucun livre en cours de lecture";
+"currentReading.navigationItemTitle" = "Lectures en cours";
+"currentReading.tabbarItemTitle" = "Lectures";
+"newBook.erreurScanningTitle" = "Scanning impossible";
+"newBook.erreurScanningMessage" = "Le scanning nécessite l'utilisation d'un appareil équipé d'une caméra";
+"newBook.erreurScanningAction" = "OK";
+"newBook.okScanningTitle" = "Youpi!";
+"newBook.okScanningMessage" = "Le code-barres a été scanné";
+"newBook.okScanningAction" = "OK";
+"newBook.barcodePosition" = "Positionnez le code-barres ici";
+"missingInfos.missingInfosTitle" = "Il manque des informations";
+"missingInfos.missingInfosMessage" = "Vous devez avoir renseigné toutes les informations pour continuer";
+"missingInfos.missingInfosAction" = "OK";
+"missingInfos.addingInfos" = "Ajout des informations manquantes";
+"missingInfos.explanationText" = "Complétez les informations manquantes pour finaliser l'ajout de votre livre!";
+"missingInfos.formPlaceholderTitle" = "Titre";
+"missingInfos.formPlaceholderAuthors" = "Auteur(s) (à séparer par une virgule)";
+"missingInfos.formPlaceholderPage" = "Nombre total de pages du livre";
+"missingInfos.formValidateButtonText" = "Valider";
+"missingInfos.formCancelButtonText" = "Annuler";
+"historical.section0" = "Ce mois-ci";
+"historical.section1" = "Le mois dernier";
+"historical.section2" = "Cette année";
+"historical.section3" = "Les années précédentes";
+"historical.scopeAll" = "Tous";
+"historical.scopeFavoris" = "Favoris";
+"historical.noBook" = "Vous n'avez actuellement aucun livre lu";
+"historical.noSearchResult" = "Il n'y a pas de résultat à votre recherche";
+"historical.searchbarPlaceholder" = "Rechercher un livre ou un auteur";
+"historical.navigationItemTitle" = "Livres que j'ai lus";
+"historical.tabbarItemTitle" = "Historique";
+"historical.deleteBookTitle" = "Attention";
+"historical.deleteBookMessage" = "Etes-vous sûr de vouloir supprimer ce livre?";
+"historical.deleteBookActionValidate" = "Valider";
+"historical.deleteBookActionCancel" = "Annuler";
+"statistics.navigationItemTitle" = "Statistiques";
+"statistics.tabbarItemTitle" = "Stats";
+"statistics.comingSoonLabel" = "Ca arrive bientôt!";
+"content.okButtonText" = "C'est parti!";
+"content.page0Text" = "Ajoutez votre livre en utilisant le bouton + pour scanner le code-barres";
+"content.page1Text" = "Utilisez le marque-page virtuel et suivez votre pourcentage d'avancement du livre";
+"content.page2Text" = "Swipez à gauche pour indiquer que vous avez terminé de lire le livre ou le supprimer";
+"content.page3Text" = "Taggez vos livres favoris et partagez-les sur Facebook";
+"content.page4Text" = "Retrouvez l'historique de vos lectures en un clin d'oeil grâce à la barre de recherche";

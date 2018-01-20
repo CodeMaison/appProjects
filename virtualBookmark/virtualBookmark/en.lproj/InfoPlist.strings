@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  virtualBookmark
+
+  Created by Anne Laure Civeyrac on 10/01/2018.
+  Copyright © 2018 Anne Laure Civeyrac. All rights reserved.
+*/
+
+"NSCameraUsageDescription" = "Authorizing access to your camera will make it possible to scan your books";

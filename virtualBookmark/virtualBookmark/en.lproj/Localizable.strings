@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  virtualBookmark
+
+  Created by Anne Laure Civeyrac on 09/01/2018.
+  Copyright © 2018 Anne Laure Civeyrac. All rights reserved.
+*/
+
+"currentReading.erreurPagesTitle" = "Error";
+"currentReading.erreurPagesMessage" = "You entered a page number superior to the total number of pages of the book";
+"currentReading.erreurPagesAction" = "Modify";
+"currentReading.noBook" = "You are not reading any book at the moment";
+"currentReading.navigationItemTitle" = "Readings in progress";
+"currentReading.tabbarItemTitle" = "Readings";
+"newBook.erreurScanningTitle" = "Unable to proceed with scanning";
+"newBook.erreurScanningMessage" = "A device with a camera is required to proceed with scanning";
+"newBook.erreurScanningAction" = "OK";
+"newBook.okScanningTitle" = "Yippee!";
+"newBook.okScanningMessage" = "Barcode has been successfully scanned";
+"newBook.okScanningAction" = "OK";
+"newBook.barcodePosition" = "Place barcode here";
+"missingInfos.missingInfosTitle" = "Some information is missing";
+"missingInfos.missingInfosMessage" = "All elements should be completed in order to proceed";
+"missingInfos.missingInfosAction" = "OK";
+"missingInfos.addingInfos" = "Add missing information";
+"missingInfos.explanationText" = "Indicate missing information to complete the adding of your book!";
+"missingInfos.formPlaceholderTitle" = "Title";
+"missingInfos.formPlaceholderAuthors" = "Author(s) (to be splitted with a comma)";
+"missingInfos.formPlaceholderPage" = "Book total number of pages";
+"missingInfos.formValidateButtonText" = "Validate";
+"missingInfos.formCancelButtonText" = "Cancel";
+"historical.section0" = "Current month";
+"historical.section1" = "Last month";
+"historical.section2" = "This year";
+"historical.section3" = "Last years";
+"historical.scopeAll" = "All";
+"historical.scopeFavoris" = "Favorites";
+"historical.noBook" = "You didn't read any book yet";
+"historical.noSearchResult" = "No result for your search";
+"historical.searchbarPlaceholder" = "Search for a book or an author";
+"historical.navigationItemTitle" = "Books that I read";
+"historical.tabbarItemTitle" = "Historical";
+"historical.deleteBookTitle" = "Warning";
+"historical.deleteBookMessage" = "Do you really want to delete this book?";
+"historical.deleteBookActionValidate" = "Validate";
+"historical.deleteBookActionCancel" = "Cancel";
+"statistics.navigationItemTitle" = "Statistics";
+"statistics.tabbarItemTitle" = "Stats";
+"statistics.comingSoonLabel" = "Coming soon!";
+"content.okButtonText" = "Let's go!";
+"content.page0Text" = "Add your book by using the + button to scan the barcode";
+"content.page1Text" = "Use the virtual bookmark and keep an eye on your reading progression of the book";
+"content.page2Text" = "Swipe to the left to indicate that you finished to read the book or to delete it";
+"content.page3Text" = "Tag your favorite books and share them on Facebook";
+"content.page4Text" = "Find your reading historical quickly thanks to the search bar";

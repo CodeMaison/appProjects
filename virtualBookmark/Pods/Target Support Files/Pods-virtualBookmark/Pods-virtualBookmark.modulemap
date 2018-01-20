@@ -1,0 +1,6 @@
+framework module Pods_virtualBookmark {
+  umbrella header "Pods-virtualBookmark-umbrella.h"
+
+  export *
+  module * { export * }
+}
