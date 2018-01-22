@@ -14,6 +14,7 @@ Thumbs.db
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+Parameters.swift
 
 ## Build generated
 build/
