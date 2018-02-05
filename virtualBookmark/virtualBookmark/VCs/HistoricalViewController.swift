@@ -533,8 +533,8 @@ extension HistoricalViewController: UICollectionViewDelegate, UICollectionViewDa
             return sectionFooterView
             
         default:
-            
             assert(false, "Unexpected element kind")
+            return UICollectionReusableView()
         }
     }
     
