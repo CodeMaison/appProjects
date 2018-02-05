@@ -7,3 +7,4 @@
 */
 
 "NSCameraUsageDescription" = "Authorizing access to your camera will make it possible to scan your books";
+"NSPhotoLibraryUsageDescription" = "Authorizing access to your camera will make it possible to take picture of the book cover";

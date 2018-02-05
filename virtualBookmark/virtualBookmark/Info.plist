@@ -2,20 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Fabric</key>
-    <dict>
-        <key>APIKey</key>
-        <string>0f8aba7ed47dd002a5843e79f291bea18c21c562</string>
-        <key>Kits</key>
-        <array>
-            <dict>
-                <key>KitInfo</key>
-                <dict/>
-                <key>KitName</key>
-                <string>Crashlytics</string>
-            </dict>
-        </array>
-    </dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Autoriser l&apos;accès à votre appareil photo vous permettra de prendre en photo la couverture de votre livre</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>0f8aba7ed47dd002a5843e79f291bea18c21c562</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -64,29 +66,25 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    
-    <key>CFBundleURLTypes</key>
-    <array>
-        <dict>
-            <key>CFBundleURLSchemes</key>
-            <array>
-                <string>fb398291343940487</string>
-            </array>
-        </dict>
-    </array>
-    <key>FacebookAppID</key>
-    <string>398291343940487</string>
-    <key>FacebookDisplayName</key>
-    <string>virt­u­a­l­B­o­o­k­mark</string>
-    
-    
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-        <string>fbapi</string>
-        <string>fb-messenger-api</string>
-        <string>fbauth2</string>
-        <string>fbshareextension</string>
-    </array>
-    
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb398291343940487</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>398291343940487</string>
+	<key>FacebookDisplayName</key>
+	<string>virt­u­a­l­B­o­o­k­mark</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
 </dict>
 </plist>
