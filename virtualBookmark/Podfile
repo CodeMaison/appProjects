@@ -12,6 +12,8 @@ target 'virtualBookmark' do
   pod 'FacebookCore'
   pod 'FacebookLogin'
   pod 'FacebookShare'
+  pod 'Fabric'
+  pod 'Crashlytics'
 
   # Pods for virtualBookmark
 

@@ -270,6 +270,7 @@
 				7201195B1FD0551900F5B04C /* Resources */,
 				0335E8230C749B005E16F597 /* [CP] Embed Pods Frameworks */,
 				70A1F05443250FC5ABBFFB42 /* [CP] Copy Pods Resources */,
+				72709D762028A20F00EA7230 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -488,6 +489,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-virtualBookmark/Pods-virtualBookmark-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		72709D762028A20F00EA7230 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 0f8aba7ed47dd002a5843e79f291bea18c21c562 b167e5baf411b9b5bfe8a39d9e6972bc91be7585c381851527e55fb0b89bc10f";
 		};
 		9B53C05353EEC0183C1C989D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
